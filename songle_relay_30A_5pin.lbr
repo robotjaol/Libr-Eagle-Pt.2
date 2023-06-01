@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="RELAY_SONGLE_4PIN">
+<pad name="CA" x="-0.6" y="-21.03" drill="2.159" shape="long" rot="R180"/>
+<pad name="CB" x="9.622" y="-21.03" drill="2.159" shape="long" rot="R180"/>
+<pad name="NO" x="13.4" y="-6.1" drill="2.159" shape="long"/>
+<pad name="NC" x="13.4" y="1.5" drill="2.159" shape="long"/>
+<pad name="COMMON" x="-4.4" y="-8.6" drill="2.159" shape="long"/>
+<wire x1="13.908" y1="-8.6" x2="18.8" y2="-8.6" width="0.127" layer="21"/>
+<wire x1="18.8" y1="-8.6" x2="18.8" y2="3.946" width="0.127" layer="21"/>
+<wire x1="18.8" y1="3.946" x2="13.4" y2="3.946" width="0.127" layer="21"/>
+<wire x1="13.4" y1="3.946" x2="-8.8" y2="3.946" width="0.127" layer="21"/>
+<wire x1="-8.8" y1="3.946" x2="-8.8" y2="-12.3" width="0.127" layer="21"/>
+<wire x1="-8.8" y1="-12.3" x2="-5.954" y2="-12.3" width="0.127" layer="21"/>
+<wire x1="-5.954" y1="-12.3" x2="-5.954" y2="-28.308" width="0.127" layer="21"/>
+<wire x1="-5.954" y1="-28.308" x2="13.908" y2="-28.308" width="0.127" layer="21"/>
+<wire x1="13.908" y1="-28.308" x2="13.908" y2="-8.6" width="0.127" layer="21"/>
+<text x="-6.7" y="1.7" size="1.27" layer="21">RELAY 30A</text>
+<wire x1="3.092" y1="-22.03" x2="3.492" y2="-19.53" width="0.127" layer="21"/>
+<wire x1="3.492" y1="-19.53" x2="3.892" y2="-22.03" width="0.127" layer="21"/>
+<wire x1="3.892" y1="-22.03" x2="4.392" y2="-19.784" width="0.127" layer="21"/>
+<wire x1="4.392" y1="-19.784" x2="4.892" y2="-22.284" width="0.127" layer="21"/>
+<wire x1="4.892" y1="-22.284" x2="5.292" y2="-19.53" width="0.127" layer="21"/>
+<wire x1="5.292" y1="-19.53" x2="5.892" y2="-22.03" width="0.127" layer="21"/>
+<wire x1="5.892" y1="-22.03" x2="6.292" y2="-19.53" width="0.127" layer="21"/>
+<wire x1="-4.4" y1="-8.6" x2="-4.4" y2="-2.4" width="0.8128" layer="21"/>
+<wire x1="-4.4" y1="-2.4" x2="4.6" y2="-2.4" width="0.8128" layer="21"/>
+<wire x1="4.6" y1="-2.4" x2="13.3" y2="1.4" width="0.2" layer="21" style="shortdash"/>
+<wire x1="14.008" y1="3.973" x2="13.4" y2="3.946" width="0.0762" layer="21"/>
+<wire x1="18.796" y1="0.508" x2="15.367" y2="3.937" width="0.1524" layer="21"/>
+<wire x1="15.367" y1="3.937" x2="15.24" y2="3.937" width="0.1524" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="RELAY_30A">
+<wire x1="-27.94" y1="12.7" x2="-17.78" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="12.7" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="12.7" x2="-12.7" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="5.08" x2="-22.86" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="5.08" x2="-27.94" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-27.94" y1="5.08" x2="-27.94" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="5.08" x2="-17.78" y2="12.7" width="0.254" layer="94"/>
+<pin name="CA" x="-20.32" y="17.78" length="middle" rot="R270"/>
+<pin name="CB" x="-20.32" y="0" length="middle" rot="R90"/>
+<pin name="NC" x="0" y="20.32" length="middle" rot="R270"/>
+<pin name="NO" x="0" y="0" length="middle" rot="R90"/>
+<pin name="COMMON" x="10.16" y="10.16" length="middle" rot="R180"/>
+<wire x1="5.08" y1="10.16" x2="-2.54" y2="15.24" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SONGLE_30A">
+<description>relay 30 A 5 pin, create by mikroavr.com</description>
+<gates>
+<gate name="G$1" symbol="RELAY_30A" x="7.62" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="RELAY_SONGLE_4PIN">
+<connects>
+<connect gate="G$1" pin="CA" pad="CA"/>
+<connect gate="G$1" pin="CB" pad="CB"/>
+<connect gate="G$1" pin="COMMON" pad="COMMON"/>
+<connect gate="G$1" pin="NC" pad="NC"/>
+<connect gate="G$1" pin="NO" pad="NO"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

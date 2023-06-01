@@ -1,0 +1,208 @@
+<!--This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0-->
+<eagle version="7.1.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="QFN65P600X600X100-29N">
+<rectangle x1="-1.92" y1="0.44" x2="-0.44" y2="1.92" layer="31"/>
+<rectangle x1="0.44" y1="0.44" x2="1.92" y2="1.92" layer="31"/>
+<rectangle x1="-1.92" y1="-1.92" x2="-0.44" y2="-0.44" layer="31"/>
+<rectangle x1="0.44" y1="-1.92" x2="1.92" y2="-0.44" layer="31"/>
+<text x="-3.91" y="-4.615" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-3.91" y="4.615" size="1.27" layer="25">&gt;NAME</text>
+<circle x="-3.995" y="1.95" radius="0.1" width="0.2" layer="21"/>
+<circle x="-3.995" y="1.95" radius="0.1" width="0.2" layer="51"/>
+<wire x1="3.05" y1="-3.05" x2="-3.05" y2="-3.05" width="0.127" layer="51"/>
+<wire x1="3.05" y1="3.05" x2="-3.05" y2="3.05" width="0.127" layer="51"/>
+<wire x1="3.05" y1="-3.05" x2="3.05" y2="3.05" width="0.127" layer="51"/>
+<wire x1="-3.05" y1="-3.05" x2="-3.05" y2="3.05" width="0.127" layer="51"/>
+<wire x1="3.05" y1="-3.05" x2="2.43" y2="-3.05" width="0.127" layer="21"/>
+<wire x1="3.05" y1="3.05" x2="2.43" y2="3.05" width="0.127" layer="21"/>
+<wire x1="-3.05" y1="-3.05" x2="-2.43" y2="-3.05" width="0.127" layer="21"/>
+<wire x1="-3.05" y1="3.05" x2="-2.43" y2="3.05" width="0.127" layer="21"/>
+<wire x1="3.05" y1="-3.05" x2="3.05" y2="-2.43" width="0.127" layer="21"/>
+<wire x1="3.05" y1="3.05" x2="3.05" y2="2.43" width="0.127" layer="21"/>
+<wire x1="-3.05" y1="-3.05" x2="-3.05" y2="-2.43" width="0.127" layer="21"/>
+<wire x1="-3.05" y1="3.05" x2="-3.05" y2="2.43" width="0.127" layer="21"/>
+<wire x1="-3.615" y1="-3.615" x2="3.615" y2="-3.615" width="0.05" layer="39"/>
+<wire x1="-3.615" y1="3.615" x2="3.615" y2="3.615" width="0.05" layer="39"/>
+<wire x1="-3.615" y1="-3.615" x2="-3.615" y2="3.615" width="0.05" layer="39"/>
+<wire x1="3.615" y1="-3.615" x2="3.615" y2="3.615" width="0.05" layer="39"/>
+<smd name="8" x="-1.95" y="-2.955" dx="0.81" dy="0.32" layer="1" roundness="25" rot="R90"/>
+<smd name="9" x="-1.3" y="-2.955" dx="0.81" dy="0.32" layer="1" roundness="25" rot="R90"/>
+<smd name="10" x="-0.65" y="-2.955" dx="0.81" dy="0.32" layer="1" roundness="25" rot="R90"/>
+<smd name="11" x="0" y="-2.955" dx="0.81" dy="0.32" layer="1" roundness="25" rot="R90"/>
+<smd name="12" x="0.65" y="-2.955" dx="0.81" dy="0.32" layer="1" roundness="25" rot="R90"/>
+<smd name="13" x="1.3" y="-2.955" dx="0.81" dy="0.32" layer="1" roundness="25" rot="R90"/>
+<smd name="14" x="1.95" y="-2.955" dx="0.81" dy="0.32" layer="1" roundness="25" rot="R90"/>
+<smd name="22" x="1.95" y="2.955" dx="0.81" dy="0.32" layer="1" roundness="25" rot="R90"/>
+<smd name="23" x="1.3" y="2.955" dx="0.81" dy="0.32" layer="1" roundness="25" rot="R90"/>
+<smd name="24" x="0.65" y="2.955" dx="0.81" dy="0.32" layer="1" roundness="25" rot="R90"/>
+<smd name="25" x="0" y="2.955" dx="0.81" dy="0.32" layer="1" roundness="25" rot="R90"/>
+<smd name="26" x="-0.65" y="2.955" dx="0.81" dy="0.32" layer="1" roundness="25" rot="R90"/>
+<smd name="27" x="-1.3" y="2.955" dx="0.81" dy="0.32" layer="1" roundness="25" rot="R90"/>
+<smd name="28" x="-1.95" y="2.955" dx="0.81" dy="0.32" layer="1" roundness="25" rot="R90"/>
+<smd name="1" x="-2.955" y="1.95" dx="0.81" dy="0.32" layer="1" roundness="25"/>
+<smd name="2" x="-2.955" y="1.3" dx="0.81" dy="0.32" layer="1" roundness="25"/>
+<smd name="3" x="-2.955" y="0.65" dx="0.81" dy="0.32" layer="1" roundness="25"/>
+<smd name="4" x="-2.955" y="0" dx="0.81" dy="0.32" layer="1" roundness="25"/>
+<smd name="5" x="-2.955" y="-0.65" dx="0.81" dy="0.32" layer="1" roundness="25"/>
+<smd name="6" x="-2.955" y="-1.3" dx="0.81" dy="0.32" layer="1" roundness="25"/>
+<smd name="7" x="-2.955" y="-1.95" dx="0.81" dy="0.32" layer="1" roundness="25"/>
+<smd name="15" x="2.955" y="-1.95" dx="0.81" dy="0.32" layer="1" roundness="25"/>
+<smd name="16" x="2.955" y="-1.3" dx="0.81" dy="0.32" layer="1" roundness="25"/>
+<smd name="17" x="2.955" y="-0.65" dx="0.81" dy="0.32" layer="1" roundness="25"/>
+<smd name="18" x="2.955" y="0" dx="0.81" dy="0.32" layer="1" roundness="25"/>
+<smd name="19" x="2.955" y="0.65" dx="0.81" dy="0.32" layer="1" roundness="25"/>
+<smd name="20" x="2.955" y="1.3" dx="0.81" dy="0.32" layer="1" roundness="25"/>
+<smd name="21" x="2.955" y="1.95" dx="0.81" dy="0.32" layer="1" roundness="25"/>
+<smd name="29" x="0" y="0" dx="4.8" dy="4.8" layer="1" cream="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SX1276">
+<wire x1="20.32" y1="27.94" x2="20.32" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-30.48" x2="-20.32" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-30.48" x2="-20.32" y2="27.94" width="0.254" layer="94"/>
+<wire x1="20.32" y1="27.94" x2="-20.32" y2="27.94" width="0.254" layer="94"/>
+<text x="-20.32" y="29.21" size="1.778" layer="95">&gt;NAME</text>
+<text x="-20.32" y="-33.02" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VBAT_ANA" x="25.4" y="25.4" length="middle" direction="pwr" rot="R180"/>
+<pin name="RFI_LF" x="-25.4" y="-2.54" length="middle" direction="in"/>
+<pin name="EXP" x="25.4" y="-25.4" length="middle" direction="pwr" rot="R180"/>
+<pin name="VR_ANA" x="25.4" y="22.86" length="middle" direction="pwr" rot="R180"/>
+<pin name="VR_DIG" x="25.4" y="17.78" length="middle" direction="pwr" rot="R180"/>
+<pin name="XTA" x="25.4" y="-17.78" length="middle" rot="R180"/>
+<pin name="XTB" x="25.4" y="-20.32" length="middle" rot="R180"/>
+<pin name="DIO0" x="25.4" y="2.54" length="middle" rot="R180"/>
+<pin name="NRESET" x="-25.4" y="7.62" length="middle"/>
+<pin name="DIO1/DCLK" x="25.4" y="0" length="middle" rot="R180"/>
+<pin name="DIO2/DATA" x="25.4" y="-2.54" length="middle" rot="R180"/>
+<pin name="DIO3" x="25.4" y="-5.08" length="middle" rot="R180"/>
+<pin name="DIO4" x="25.4" y="-7.62" length="middle" rot="R180"/>
+<pin name="DIO5" x="25.4" y="-10.16" length="middle" rot="R180"/>
+<pin name="VBAT_DIG" x="25.4" y="20.32" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="25.4" y="-27.94" length="middle" direction="pwr" rot="R180"/>
+<pin name="NSS" x="-25.4" y="-12.7" length="middle" direction="in"/>
+<pin name="SCK" x="-25.4" y="-15.24" length="middle" direction="in" function="clk"/>
+<pin name="MOSI" x="-25.4" y="-17.78" length="middle" direction="in"/>
+<pin name="MISO" x="-25.4" y="-20.32" length="middle" direction="out"/>
+<pin name="RFI_HF(GND)" x="-25.4" y="2.54" length="middle" direction="in"/>
+<pin name="RFO_HF(GND)" x="-25.4" y="0" length="middle" direction="out"/>
+<pin name="RXTX/RF_MOD" x="-25.4" y="-7.62" length="middle" direction="out"/>
+<pin name="VBAT_RF" x="25.4" y="15.24" length="middle" direction="pwr" rot="R180"/>
+<pin name="VR_PA" x="25.4" y="12.7" length="middle" direction="pwr" rot="R180"/>
+<pin name="PA_BOOST" x="25.4" y="7.62" length="middle" direction="out" rot="R180"/>
+<pin name="RFO_LF" x="-25.4" y="-5.08" length="middle" direction="out"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SX1276" prefix="U">
+<description>RF Transceiver FSK/GFSK/MSK/GMSK/LoRa/OOK 137MHz to 1020MHz 28-Pin QFN &lt;a href="https://pricing.snapeda.com/parts/SX1276/Semtech%20Corporation/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="SX1276" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN65P600X600X100-29N">
+<connects>
+<connect gate="G$1" pin="DIO0" pad="8"/>
+<connect gate="G$1" pin="DIO1/DCLK" pad="9"/>
+<connect gate="G$1" pin="DIO2/DATA" pad="10"/>
+<connect gate="G$1" pin="DIO3" pad="11"/>
+<connect gate="G$1" pin="DIO4" pad="12"/>
+<connect gate="G$1" pin="DIO5" pad="13"/>
+<connect gate="G$1" pin="EXP" pad="29"/>
+<connect gate="G$1" pin="GND" pad="15 23 26"/>
+<connect gate="G$1" pin="MISO" pad="17"/>
+<connect gate="G$1" pin="MOSI" pad="18"/>
+<connect gate="G$1" pin="NRESET" pad="7"/>
+<connect gate="G$1" pin="NSS" pad="19"/>
+<connect gate="G$1" pin="PA_BOOST" pad="27"/>
+<connect gate="G$1" pin="RFI_HF(GND)" pad="21"/>
+<connect gate="G$1" pin="RFI_LF" pad="1"/>
+<connect gate="G$1" pin="RFO_HF(GND)" pad="22"/>
+<connect gate="G$1" pin="RFO_LF" pad="28"/>
+<connect gate="G$1" pin="RXTX/RF_MOD" pad="20"/>
+<connect gate="G$1" pin="SCK" pad="16"/>
+<connect gate="G$1" pin="VBAT_ANA" pad="3"/>
+<connect gate="G$1" pin="VBAT_DIG" pad="14"/>
+<connect gate="G$1" pin="VBAT_RF" pad="24"/>
+<connect gate="G$1" pin="VR_ANA" pad="2"/>
+<connect gate="G$1" pin="VR_DIG" pad="4"/>
+<connect gate="G$1" pin="VR_PA" pad="25"/>
+<connect gate="G$1" pin="XTA" pad="5"/>
+<connect gate="G$1" pin="XTB" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Price" value="None"/>
+<attribute name="Purchase-URL" value="https://pricing.snapeda.com/search/part/SX1276/?ref=eda"/>
+<attribute name="Description" value="
+IC RF TxRx Only 802.15.4 LoRa™ 137MHz ~ 1.02GHz 28-VQFN Exposed Pad
+"/>
+<attribute name="MF" value="Semtech Corporation"/>
+<attribute name="MP" value="SX1276"/>
+<attribute name="Availability" value="In Stock"/>
+<attribute name="Package" value="VQFN-28 Semtech Corporation"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

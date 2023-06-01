@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="SIM5320E">
+<description>&lt;b&gt;SIM800 v2 MODUL&lt;/b&gt;
+crete by mikroavr.com</description>
+<text x="3.048" y="-20.32" size="1.778" layer="21" rot="R90">SIMCARD</text>
+<wire x1="-1.778" y1="0" x2="-1.778" y2="-50" width="0.127" layer="21"/>
+<rectangle x1="-3.048" y1="-24.13" x2="-1.778" y2="-7.62" layer="22"/>
+<rectangle x1="-3.048" y1="-26.67" x2="-1.778" y2="-25.4" layer="22"/>
+<wire x1="-1.778" y1="0" x2="42.127" y2="0" width="0.127" layer="21"/>
+<wire x1="42.164" y1="0" x2="42.164" y2="-50" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="-50.038" x2="-1.778" y2="-52.324" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="-52.324" x2="42.164" y2="-52.324" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-8.89" x2="36.83" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="36.83" y1="-8.89" x2="36.83" y2="-39.37" width="0.127" layer="21"/>
+<wire x1="36.83" y1="-39.37" x2="6.35" y2="-39.37" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-39.37" x2="6.35" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="6.096" y1="-7.112" x2="6.096" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="6.096" y1="-3.81" x2="12.192" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="12.192" y1="-3.81" x2="12.192" y2="-7.112" width="0.127" layer="21"/>
+<wire x1="12.192" y1="-7.112" x2="6.096" y2="-7.112" width="0.127" layer="21"/>
+<wire x1="12.446" y1="-48.006" x2="9.144" y2="-48.006" width="0.127" layer="21"/>
+<wire x1="9.144" y1="-48.006" x2="9.144" y2="-41.91" width="0.127" layer="21"/>
+<wire x1="9.144" y1="-41.91" x2="12.446" y2="-41.91" width="0.127" layer="21"/>
+<wire x1="12.446" y1="-41.91" x2="12.446" y2="-48.006" width="0.127" layer="21"/>
+<circle x="6.858" y="-47.752" radius="0.71841875" width="0.127" layer="21"/>
+<circle x="29.464" y="-47.752" radius="0.71841875" width="0.127" layer="21"/>
+<text x="7.62" y="-21.59" size="2.54" layer="27" rot="R270">SIM5320E</text>
+<text x="27.686" y="-46.482" size="1.27" layer="21">GPS</text>
+<text x="7.366" y="-46.228" size="1.016" layer="21" rot="R90">WCDMA</text>
+<wire x1="42.164" y1="-50.038" x2="42.164" y2="-52.324" width="0.127" layer="21"/>
+<pad name="RXD" x="18.034" y="-1.778" drill="0.9144" shape="long" rot="R90"/>
+<pad name="TXD" x="20.574" y="-1.778" drill="0.9144" shape="long" rot="R90"/>
+<pad name="RST" x="23.114" y="-1.778" drill="0.9144" shape="long" rot="R90"/>
+<pad name="VMCU" x="25.654" y="-1.778" drill="0.9144" shape="long" rot="R90"/>
+<pad name="+5V" x="30.734" y="-1.778" drill="0.9144" shape="long" rot="R90"/>
+<pad name="GND" x="28.194" y="-1.778" drill="0.9144" shape="long" rot="R90"/>
+<pad name="PWR" x="39.624" y="-27.305" drill="0.9144" shape="long" rot="R180"/>
+<pad name="GND_PWR" x="39.624" y="-29.845" drill="0.9144" shape="long" rot="R180"/>
+<pad name="P$1" x="2.286" y="-4.064" drill="4.0132"/>
+<pad name="P$2" x="37.719" y="-3.683" drill="4.0132"/>
+<pad name="P$3" x="2.667" y="-48.387" drill="4.0132"/>
+<pad name="P$4" x="38.227" y="-48.26" drill="4.0132"/>
+</package>
+<package name="SIM5320E_PIN_ONLY">
+<description>&lt;b&gt;SIM800 v2 MODUL&lt;/b&gt;
+crete by mikroavr.com</description>
+<text x="3.048" y="-20.32" size="1.778" layer="21" rot="R90">SIMCARD</text>
+<pad name="RXD" x="18.034" y="-1.778" drill="0.9144" shape="long" rot="R90"/>
+<pad name="TXD" x="20.574" y="-1.778" drill="0.9144" shape="long" rot="R90"/>
+<pad name="RST" x="23.114" y="-1.778" drill="0.9144" shape="long" rot="R90"/>
+<pad name="VMCU" x="25.654" y="-1.778" drill="0.9144" shape="long" rot="R90"/>
+<pad name="+5V" x="30.734" y="-1.778" drill="0.9144" shape="long" rot="R90"/>
+<pad name="GND" x="28.194" y="-1.778" drill="0.9144" shape="long" rot="R90"/>
+<pad name="PWR" x="39.624" y="-27.305" drill="0.9144" shape="long" rot="R180"/>
+<pad name="GND_PWR" x="39.624" y="-29.845" drill="0.9144" shape="long" rot="R180"/>
+<pad name="P$1" x="2.286" y="-4.064" drill="4.0132"/>
+<pad name="P$2" x="37.719" y="-3.683" drill="4.0132"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SIM5320E">
+<wire x1="-15.24" y1="12.7" x2="-15.24" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-20.32" x2="10.16" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-20.32" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="-15.24" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-10.922" y1="3.81" x2="8.128" y2="3.81" width="0.254" layer="94"/>
+<wire x1="8.128" y1="3.81" x2="8.128" y2="-14.732" width="0.254" layer="94"/>
+<wire x1="8.128" y1="-14.732" x2="-10.922" y2="-14.732" width="0.254" layer="94"/>
+<wire x1="-10.922" y1="-14.732" x2="-10.922" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-8.636" y1="-15.494" x2="-8.636" y2="-19.05" width="0.254" layer="94"/>
+<wire x1="-8.636" y1="-19.05" x2="-6.096" y2="-19.05" width="0.254" layer="94"/>
+<wire x1="-6.096" y1="-19.05" x2="-6.096" y2="-15.494" width="0.254" layer="94"/>
+<wire x1="-6.096" y1="-15.494" x2="-8.636" y2="-15.494" width="0.254" layer="94"/>
+<circle x="-13.208" y="-18.542" radius="1.481059375" width="0.254" layer="94"/>
+<circle x="8.382" y="-18.542" radius="1.481059375" width="0.254" layer="94"/>
+<circle x="-13.208" y="10.668" radius="1.481059375" width="0.254" layer="94"/>
+<text x="-10.922" y="-17.78" size="0.762" layer="94">ant</text>
+<text x="-7.62" y="-6.604" size="1.27" layer="94" rot="R90">SIM5320</text>
+<circle x="8.128" y="10.668" radius="1.481059375" width="0.254" layer="94"/>
+<circle x="-10.16" y="-18.796" radius="0.71841875" width="0.254" layer="94"/>
+<rectangle x1="-16.256" y1="-3.302" x2="-15.24" y2="7.112" layer="94"/>
+<rectangle x1="-16.256" y1="-5.588" x2="-15.24" y2="-4.318" layer="94"/>
+<text x="-13.716" y="-1.778" size="1.016" layer="94" rot="R90">SIMCARD</text>
+<text x="-14.986" y="-5.588" size="1.016" layer="94">PUSH</text>
+<wire x1="-16.51" y1="-5.08" x2="-20.32" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-16.51" y1="-5.08" x2="-17.272" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="-17.272" y1="-4.318" x2="-17.272" y2="-5.842" width="0.254" layer="94"/>
+<wire x1="-17.272" y1="-5.842" x2="-16.51" y2="-5.08" width="0.254" layer="94"/>
+<circle x="3.302" y="-18.796" radius="0.71841875" width="0.254" layer="94"/>
+<text x="2.54" y="-17.526" size="0.6096" layer="94">GPS</text>
+<rectangle x1="10.16" y1="-15.494" x2="10.922" y2="-11.43" layer="94"/>
+<text x="9.652" y="-14.732" size="1.016" layer="94" rot="R90">USB</text>
+<pin name="RXD" x="-7.62" y="17.78" length="middle" rot="R270"/>
+<pin name="TXD" x="-5.08" y="17.78" length="middle" rot="R270"/>
+<pin name="RST" x="-2.54" y="17.78" length="middle" rot="R270"/>
+<pin name="VMCU" x="0" y="17.78" length="middle" rot="R270"/>
+<pin name="GND" x="2.54" y="17.78" length="middle" rot="R270"/>
+<pin name="+5V" x="5.08" y="17.78" length="middle" rot="R270"/>
+<pin name="GND.2" x="15.24" y="-3.556" length="middle" rot="R180"/>
+<pin name="PWR" x="15.24" y="-6.096" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SIM5320E">
+<description>create by mikroavr.co
+sim5320, 2G/3G modul</description>
+<gates>
+<gate name="G$1" symbol="SIM5320E" x="10.16" y="12.7"/>
+</gates>
+<devices>
+<device name="" package="SIM5320E">
+<connects>
+<connect gate="G$1" pin="+5V" pad="+5V"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND.2" pad="GND_PWR"/>
+<connect gate="G$1" pin="PWR" pad="PWR"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RXD" pad="RXD"/>
+<connect gate="G$1" pin="TXD" pad="TXD"/>
+<connect gate="G$1" pin="VMCU" pad="VMCU"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="DESCRIPTION" value=" - Cellular Development Platform For Use With SIM5320E "/>
+<attribute name="MF" value="Adafruit Industries"/>
+<attribute name="MP" value="SIM5320E"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SIM5320E_PIN_ONLY">
+<description>create by mikroavr.co
+sim5320, 2G/3G modul</description>
+<gates>
+<gate name="G$1" symbol="SIM5320E" x="10.16" y="12.7"/>
+</gates>
+<devices>
+<device name="" package="SIM5320E">
+<connects>
+<connect gate="G$1" pin="+5V" pad="+5V"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND.2" pad="GND_PWR"/>
+<connect gate="G$1" pin="PWR" pad="PWR"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RXD" pad="RXD"/>
+<connect gate="G$1" pin="TXD" pad="TXD"/>
+<connect gate="G$1" pin="VMCU" pad="VMCU"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="DESCRIPTION" value=" - Cellular Development Platform For Use With SIM5320E "/>
+<attribute name="MF" value="Adafruit Industries"/>
+<attribute name="MP" value="SIM5320E"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+<device name="SIM5320_PIN_ONLY" package="SIM5320E_PIN_ONLY">
+<connects>
+<connect gate="G$1" pin="+5V" pad="+5V"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND.2" pad="GND_PWR"/>
+<connect gate="G$1" pin="PWR" pad="PWR"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RXD" pad="RXD"/>
+<connect gate="G$1" pin="TXD" pad="TXD"/>
+<connect gate="G$1" pin="VMCU" pad="VMCU"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
